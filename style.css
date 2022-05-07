@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#brand {
+  color: rgba(75, 168, 75, 0.6);
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  line-height: 10px;
+  font-size: 2rem;
+}
+.nav-link:hover {
+  background-color: rgb(108, 156, 89);
+  border-radius: 0.5px;
+  outline: 5px;
+}
+.hello {
+  height: 50px;
+  width: 120px;
+  background-color: rgba(205, 200, 205, 0.6);
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 200px;
+  font-style: italic;
+  opacity: 1;
+}
+#home {
+    
+   background-image: url("img/homewel2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.btn{
+    border-radius: 15px;
+}
+.btn a{
+
+    text-decoration: none;
+}
+#resuma{
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 2px solid whitesmoke;
+  margin-top:5px;
+  padding: 10px;
+    }
+.btn:hover{
+    background-color: aqua;
+}
+/*mg {
+  height: 100%;
+  width:400px;
+  position: absolute;
+  top: -3px;
+  z-index: 3;
+}
+*/
+#about-me{
+    background-image:url("img/aboutme.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#body-card{
+    background-color: transparent;
+    opacity: 1;
+}
+
+#contact-container{
+    background-image:url("img/contactwall.jpg") ;
+}
+#send-btn{
+    width:100%;
+    background-color:lightblue;
+
+}
+#send-btn:active{
+    transform:scale(0.98);
+
+}
+#contact{
+    background-color: rgba(0,0,0,0.4);
+}
+.social-media{
+
+   list-style-type: none;
+   display: inline-block;
+}
+
+.social-media li{
+  display: inline-block;
+  
+}
