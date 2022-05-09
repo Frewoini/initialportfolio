@@ -34,10 +34,10 @@ body {
   background-size: cover;
   position: relative;
 }
-/*#home-img{
+#home-img{
 
-  
-}*/
+  background-color: rgba(0,0,0,0);
+}
 .btn{
     border-radius: 15px;
 }
