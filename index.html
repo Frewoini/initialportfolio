@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg  navbar-light   bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-dark fixed-top">
       <div class="container-fluid px-5 py-1">
         <a class="navbar-brand"  id="brand">Frewoini</a>
         <button  bg-light
@@ -57,14 +57,19 @@
     <!-- home page -->
     <section class="text-light p-5 text-center" id="home">
 
-    <div class="container" >
-      <div class="row  mt-3">
-        <div class="col-md-6 ">
-          <div class="card mt-5" style="width: 20rem;height: 20rem;">
-            <img  src="img/mypic.jpg" class="card-img-top img-fluid rounded" alt="self-photo">
+    <div class="container overflow-hidden" >
+      <div class="row  mt-3 gx-5">
+        <!--home page image-->
+        <div class="col-md-6 col-sm-3 mt-5" id="home-img">
+          <div class="card border-0 bg-dark" style="width: 18rem;">
+            <img class="card-img-top  border-0 rounded-circle  bg-dark"  src="img/mypic.jpg" alt="self-photo">
+            
           </div>
+           
+          
           </div>
-        <div class="col-md-6  text-light text-center">
+          <!--home page text-->
+        <div class="col-md-6 col-sm-6 text-light text-center">
           &nbsp;
           &nbsp;
           &nbsp;
@@ -120,6 +125,11 @@
   <!--projects-->
    <section class="p-5" id="project">
      <div class="container">
+        <div class="row">
+          <div class="col">
+             <h1 class="text-center mb-3">Projects</h1>
+          </div>
+        </div>
        <div class="row text-center g-4">
          <div class="col-md">
           <div class="card" style="width: 18rem;">
@@ -234,17 +244,17 @@
     </div> 
   </section>
       
-   <footer class="class p-2 bg-dark text-white position-relative
-   justify-content-center">
-     <div class="container">
+   <footer class="class  bg-dark text-white ">
+     <div class="nav justify-content-center">
        <p class="lead">
          Copyright @copy:2022
        </p>
-       <a href="#" class="position-absolute bottom-0 end-0 p-2">
-        <i class="fa-solid fa-square-up"></i>
-       
-      </a>
      </div>
+     <!--to go to top-->
+     <a href="#" class=" bottom-0 end-0  align-self-end">
+      <i class="fa-solid fa-square-up"></i>
+        Top
+    </a>
    </footer>
     
    <div class="modal fade" id="call" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
